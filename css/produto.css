@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header{
+  height: 80px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  border: solid 1px #eca826;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  font-weight: bold; /* Adicionando negrito palavras */
+}
+
+.logo{
+  height: 100%;
+  
+  margin-top: -10px;
+  display: flex;
+
+}
+
+.cardapio{
+  
+  width: 100px;
+  height: 20px;
+  border: solid 1px #eca826;
+  border-radius: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  backdrop-filter: blur(3px);
+  font-family: sans-serif;
+  right: 20px;
+  bottom: 80px;
+}
+
+main{
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+footer{
+  height: 60px;
+  border: solid 1px #eca826;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.main-content {
+  text-align: center;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #eca826; /* Alterando a cor da borda */
+ 
+  
+   /* Alterando a cor de fundo */
+}
+
+.card p {
+  color: #eca826; /* Alterando a cor do texto */
+  font-weight: bold; /* Adicionando negrito */
+  font-size: 300%;
+}
+
+.card img {
+  width: 1200px; /* Definindo uma largura máxima menor */
+  height: 700px;
+  
+}
+
+.card {
+  border: 1px solid #eca826; /* Alterando a cor da borda */
+  display: inline-block; /* Permitindo que a borda se ajuste ao tamanho da imagem */
+  
+  overflow: hidden; /* Evitando que o conteúdo se sobreponha à borda */
+}
+
+.card img {
+  width: 100%; /* Garantindo que a imagem ocupe todo o espaço disponível */
+  display: block; /* Removendo espaços em branco extras */
+}
+
+.card-info {
+  text-align: center; /* Centralizando o texto */
+  color: #eca826; /* Definindo a cor do texto */
+  margin-top: 10px; /* Espaçamento superior para separar do cartão */
+}
+

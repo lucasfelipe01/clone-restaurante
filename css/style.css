@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header{
+  height: 80px;
+  border: solid 1px #eca826;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 30px;
+  font-weight: bold; /* Adicionando negrito palavras */
+}
+
+
+.logo{
+  height: 100%;
+  margin-left: 70px;
+  margin-top: -10px;
+  display: flex;
+
+}
+
+.buttons{
+  display: flex;
+  flex-direction: column;
+  margin-right: 70px;
+  gap: 5px;
+}
+
+button {
+  background-color: #eca826;
+  color: white;
+  font-size: 15px;
+  border: none;
+  width: 100px;
+  height: 25px; /* Aumentei a altura para garantir que o botão seja visível */
+  border-radius: 30px; /* Define um raio de 5 pixels para tornar o botão arredondado */
+}
+
+main{
+  flex-grow: 1;
+  background-image: url('../src/imgs/background.png');
+  width: 110%;
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+footer{
+  height: 60px;
+  border: solid 1px #eca826;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+h1{
+  font-family: "Bungee Shade", sans-serif; 
+  font-weight: 400; 
+  font-style: normal; 
+  font-size: 80px;
+  width: 600px;
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.menu{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  border: solid 1px #eca826;
+  border-radius: 20px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  backdrop-filter: blur(3px);
+  font-family: sans-serif;
+  right: 20px;
+  bottom: 80px;
+}
