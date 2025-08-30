@@ -4,11 +4,11 @@ Este projeto é um **clone do site do restaurante Pobre Juan**, feito inteiramen
 
 ---
 
-## 🔗 Link do repositório
+## 🔗 Projeto
 
-[GitHub - Clone Restaurante](https://github.com/lucasfelipe01/clone-resturante)
+![Clone Restaurante](<img width="1909" height="919" alt="Captura de tela de 2025-08-30 14-51-08" src="https://github.com/user-attachments/assets/3fd17131-8d2e-40aa-a7a6-33cb4cadca28" />
+)
 
----
 
 ## 🎨 Layout
 
